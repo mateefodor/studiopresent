@@ -2,11 +2,26 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(0, 0, 0, 0.94);
 }
 header {
     background-color: #B50014;
     text-align: center;
     padding: 30px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.column1 {
+    flex: auto;
+    padding: 20px;
+}
+
+.column2 {
+    flex: auto;
+    padding: 20px;
 }
 
 a {
@@ -20,3 +35,99 @@ a {
     line-height: normal;  
     padding-left: 20px;
 }
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 33%; 
+    transform: translate(-50%, -50%); 
+    background-color: #0000004D; 
+    color: #fff; 
+    padding: 30px 40px; 
+    text-align: left;
+    padding-right: 200px;
+    margin-right: 200px;
+}
+
+h2 {
+    font-family: Roboto Condensed;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #FFF;
+  text-align: justify;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+button {
+  align-items: center;
+  background-color: #A62120;
+  border: 0;
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.container3 {
+    background-color: #A62120;
+}
+
+li {
+    color: white;
+}
+  
