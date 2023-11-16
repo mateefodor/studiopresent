@@ -24,6 +24,11 @@ header {
     padding: 20px;
 }
 
+.column3 {
+    flex: auto;
+    padding: 20px;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -66,6 +71,7 @@ h1 {
 
 h3 {
     color: white;
+    padding-bottom: 30px;
 }
 
 p {
@@ -125,9 +131,74 @@ button {
 
 .container3 {
     background-color: #A62120;
+    display: flex;
 }
 
 li {
     color: white;
+}
+
+.container4 {
+    text-align: center;
+}
+
+.column5 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+.column6 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+.column7 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+.column8 {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+hr {
+    color: #535353;;
+}
+
+.column9 {
+    flex: auto;
+}
+
+.column10 {
+    flex: auto;
+    padding: 20px;
+}
+
+.container5 {
+    background-color: #A62120;
+    display: flex;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff;
+}
+
+.column11 {
+    flex: auto;
+    float: left;
+    width: 15%;
+}
+
+.column12 {
+    flex: auto;
 }
   
