@@ -94,10 +94,11 @@ p {
     height: auto;
   }
 
-.row:after {
+.row {
     content: "";
     display: table;
     clear: both;
+    display: flex;
   }
 
 button {
@@ -202,3 +203,74 @@ hr {
     flex: auto;
 }
   
+.container7 {
+    display: flex;
+}
+
+.column12 {
+    flex: auto;
+    float: right;
+    width: 15%;
+}
+
+.section {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+
+}
+
+.medals {
+    display: flex;
+}
+
+h3 {
+    opacity: 0.456;
+}
+
+.szoveg {
+    flex: auto;
+    align-items: center;
+}
+
+.card {
+    width: 33%;
+    background-color: #2C2C2C;
+}
+
+.card2 {
+    width: 33%;
+    background-color: #1C1C1C;
+}
+
+.card3 {
+    width: 33%;
+    background-color: #1C1C1C;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column13 {
+    display: flex;
+    padding: 10px;
+    
+    }
+
+  @media screen and (max-width: 600px) {
+    .column13 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
