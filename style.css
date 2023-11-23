@@ -16,17 +16,24 @@ header {
 
 .column1 {
     flex: auto;
-    padding: 20px;
+    padding: 70px
+    
 }
 
 .column2 {
     flex: auto;
-    padding: 20px;
+    padding: 70px;
 }
 
 .column3 {
     flex: auto;
-    padding: 20px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column4 {
+    display: block;
 }
 
 a {
@@ -46,7 +53,7 @@ a {
 .overlay-text {
     position: absolute;
     top: 50%; 
-    left: 33%; 
+    left: 30%; 
     transform: translate(-50%, -50%); 
     background-color: #0000004D; 
     color: #fff; 
@@ -81,6 +88,8 @@ p {
   font-weight: 300;
   line-height: 24px;
   color: #FFF;
+  display: flex;
+  justify-content: center;
 }
 
 .image-container {
@@ -94,13 +103,19 @@ p {
   }
 
 .row {
-    content: "";
-    display: table;
     clear: both;
     display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 80px 0px;
   }
 
-button {
+  .row2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 80px 0px;
+  }
+
+.red-button {
   align-items: center;
   background-color: #A62120;
   border: 0;
@@ -129,6 +144,35 @@ button {
   vertical-align: middle;
 }
 
+.white-button {
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+
 .container3 {
     background-color: #A62120;
     display: flex;
@@ -146,6 +190,7 @@ li {
     float: left;
     width: 15%;
     padding: 5px;
+    display: flex;
 }
 
 .column6 {
@@ -214,6 +259,8 @@ hr {
 
 .section {
     display: flex;
+    flex-direction: row;
+    padding: 70px 0px 30px 0px;
 }
 
 .medals {
@@ -258,7 +305,6 @@ h4 {
   .column13 {
     display: flex;
     padding: 10px;
-    
     }
 
   @media screen and (max-width: 600px) {
@@ -279,5 +325,14 @@ h4 {
 }
 
 .logo-container {
-    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+
