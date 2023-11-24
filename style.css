@@ -33,7 +33,7 @@ header {
 }
 
 .column4 {
-    display: block;
+    display: flex;
 }
 
 a {
@@ -274,7 +274,7 @@ h4 {
 
 .szoveg {
     flex: auto;
-    align-items: center;
+    align-items: center;    
 }
 
 .card {
